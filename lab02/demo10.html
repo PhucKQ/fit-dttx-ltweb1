@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selector - Contextual</title>
+    <style type="text/css">
+        h1 {
+            color: #cc3366;
+        }
+
+        div {
+            color: #3549fa;
+        }
+
+        p {
+            color: #66cc66;
+        }
+
+        li div {
+            background-color: #be8f68;
+            margin: 5px;
+        }
+
+        li > div {
+            font-style: italic;
+            font-weight: bold;
+            padding: 10px;
+        }
+
+        div * {
+            border: 1px solid #cc3366;
+        }
+
+        div span {
+            background-color: black;
+        }
+    </style>
+</head>
+<body>
+    <h1>SELECTOR - Contextual</h1>
+    <div>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut aut dolor sit recusandae maiores tempore aliquam autem quos? Minus odit repellat ab quasi cumque perspiciatis, repudiandae reiciendis temporibus culpa eaque.</div>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt impedit maxime, aperiam, molestias natus veniam esse dolores adipisci ipsa ex voluptatum magnam, sit voluptates consequuntur quidem? Quia impedit nesciunt deserunt.</p>
+    <p>Culpa pariatur eos suscipit vitae ipsum ea, iusto aspernatur expedita numquam, inventore fuga recusandae similique quia! Incidunt quibusdam sint repellendus ipsum illum esse optio eum. In eaque at dignissimos placeat?</p>
+    <ul>
+        <li>
+            <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum ratione eaque necessitatibus! Amet suscipit eos perspiciatis sequi inventore recusandae beatae, quisquam, maiores dignissimos unde sunt labore iure vitae quis praesentium!</div>
+        </li>
+        <li>
+            <div>Eum assumenda dolor inventore culpa molestiae praesentium iure quaerat! Cumque inventore perferendis dolor ea, iste beatae, suscipit officia enim sint illum tempore dicta fugiat eius non, ipsa unde fuga quaerat?</div>
+        </li>
+        <li>
+            <div>Alias voluptate eum recusandae harum aliquid consectetur atque unde aspernatur magni minima inventore ea delectus, molestiae ratione esse ut consequuntur ullam, porro vitae! Temporibus quisquam pariatur aspernatur magnam odit adipisci.</div>
+        </li>
+        <li>
+            <section>
+                <div>
+                    section -> DIV
+                </div>
+            </section>
+        </li>
+    </ul>
+    <div><b>Lorem</b> ipsum dolor, sit amet <i>consectetur</i> adipisicing elit. Quidem, ducimus <span>natus</span>  quae sit veniam iste culpa voluptatem aperiam, exercitationem illo tempora, eum labore quam facere <del>deleniti totam sunt aut.</del></div>
+</body>
+</html>
