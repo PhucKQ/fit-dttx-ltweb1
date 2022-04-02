@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo 05</title>
+    <style type="text/css">
+        div {
+            margin: 2rem;
+            width: 30rem;
+            height: 20rem;
+            line-height: 20rem;
+            text-align: center;
+            background-color: #cc33cc;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <h1>Event</h1>
+    <button type="button" onclick="alert('Button is clicked')">Click me</button>
+    <div onmouseover="mouseHover()" onmousedown="mouseDown()" onmouseout="mouseOut()"  onmouseup="mouseUp()">
+        Click me to change color
+    </div>
+    
+    <script type="text/javascript">
+        //Type: number, string, object, null, undefined
+
+        function mouseHover() {document.bgColor = '#247881';}
+
+        function mouseDown() {document.bgColor = '#4d96ff';}
+
+        function mouseOut() {document.bgColor = '#e2dea9';}
+
+        function mouseUp() {document.bgColor = '#2478e9';}
+    </script>
+</body>
+</html>
