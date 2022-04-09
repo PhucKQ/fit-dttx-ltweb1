@@ -27,16 +27,9 @@
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script type="text/javascript">
         $(document).ready(function(){
-            var p_nodes = $('p');
-            console.log(p_nodes);
-
-            $('p').css('border', '1px solid #cc3366');
-            $('li').css({
-                'background-color': '#cc3366',
-                'color': '#fff',
-                'margin': '1px',
-                'padding': '10px'
-            });
+            $('li').first().css( 'background-color', '#cc3366' );
+            $('li').odd().css('background-color', '#66cc33');
+            $('li').even().css('border', '1px solid #6363ff');
         });
     </script>
 </body>
