@@ -1,0 +1,44 @@
+.menu {
+    background: #b1d5ff;
+    height: 50px;
+    padding: 0;
+}
+
+#sidebar {
+    background: #f09a9d;
+    height: 200px;
+    padding: 0;
+}
+
+#content {
+    background: #f5cf8e;
+    padding: 10px;
+}
+
+/* #content p {
+    /* display: inline-block; 
+    /* float: right; 
+}*/
+
+#footer {
+    background: #d7e8fe;
+}
+
+#tagname {
+    background: #b1d5ff;
+    min-height: 100px;
+    margin: 10px;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+#footer > .row {
+    padding:0 10px;
+}
+
+#tagname img {
+    display: inline-block;
+    border-radius: 50%;
+    border: none;
+    justify-items: center;
+}
